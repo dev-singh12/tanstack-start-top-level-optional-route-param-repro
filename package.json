@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "bunx --bun vite dev --host --port 3000",
-    "build": "bunx --bun vite build",
-    "serve": "bunx --bun vite preview"
+    "dev": "vite dev --host --port 3000",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "dependencies": {
     "@tanstack/react-devtools": "^0.8.1",
